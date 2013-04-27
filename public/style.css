@@ -35,6 +35,16 @@ h1 {
     color: #593918;
 }
 
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+}
+.highlighted {
+    background: yellow;
+}
+
 .bordered {
      border: 1px solid #2325ff;
 }
