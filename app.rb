@@ -27,7 +27,7 @@ end
 
 get '/secrets' do
   return redirect '/' unless session[:user] == 'jpoz'
-  "SECRETS"
+  "Waffle"
 end
 
 get '/logout' do
